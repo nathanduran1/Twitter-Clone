@@ -1,0 +1,151 @@
+.left-sidebar{
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+
+	flex: 1;
+}
+
+.sometest{
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+
+	flex: 1;
+	min-width: auto;
+
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+}
+
+.sidebar-link{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	margin: 8px 20px 8px 30px;
+
+	padding: 8px 12px 8px 10px;
+
+	position: relative;
+	cursor: pointer;
+	transition: background-color 0.15s;
+
+	border-radius: 20px;
+}
+
+.sidebar-link:hover{
+	background-color: #1C1C1C;
+}
+
+.sidebar-link img{
+	height: 24px;
+	width: 24px;
+	filter: invert(100%);
+}
+
+.sidebar-link div{
+	font-size: 20px;
+	font-weight: 300;
+
+	margin-left: 20px;
+}
+
+.indicator{
+	position: absolute;
+	top: -6px;
+	left: -2px;
+
+	transform: scale(0.3);
+	filter: invert(100%);
+}
+
+.second-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	flex: 1;
+
+	margin: 25px 25px 12px 20px;
+}
+
+.tweet-button{
+	padding: 16px 90px 16px 90px;
+	margin-bottom: 30px;
+
+	background-color: #1d9bf0;
+	color: white;
+
+	border-style: none;
+	border-radius: 30px;
+
+	font-size: 18px;
+	font-weight: 700;
+
+	cursor: pointer;
+	transition: opacity 0.15s;
+}
+
+.tweet-button:hover{
+	opacity: 0.9;
+}
+
+.second-section{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	padding: 12px;
+	border-radius: 30px;
+
+	cursor: pointer;
+	transition: background-color 0.15s;
+}
+
+.second-section:hover{
+	background-color: #1C1C1C;
+}
+
+.second-section p {
+    font-family: Roboto, Arial;
+
+	margin-top: 0px;
+
+	font-size: 15px;
+}
+
+.profile-image{
+	height: 40px;
+	width: 40px;
+
+	object-fit: cover;
+
+	border-radius: 20px;
+}
+
+.user-content{
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.user-name{
+	margin-bottom: 4px;
+
+	font-weight: 500;
+
+	color: white;
+}
+
+.user-handle {
+	margin-bottom: 0px;
+
+	color: #707070;
+}
+
+.more-icon {
+	width: 20px;
+	filter: invert(100%);
+}
